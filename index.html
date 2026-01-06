@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop Hoa Núi Thành - Đặt hoa online tại Đà Nẵng. Chuyên cung cấp hoa bó, hoa tang lễ, phụ kiện thiệp và in ảnh. Giao hàng tận nơi nội thành Quảng Nam.">
+    <meta name="keywords" content="shop hoa Núi Thành, đặt hoa online Núi Thành, hoa bó đẹp, hoa tang lễ, shop hoa Đà Nẵng">
+    <meta name="author" content="Shop Hoa Núi Thành">
+    <title>Shop Hoa Núi Thành - Đặt Hoa Online Đà Nẵng | Giao Tận Nơi</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Shop Hoa Núi Thành - Đặt Hoa Online Đà Nẵng">
+    <meta property="og:description" content="Chuyên cung cấp hoa tươi cao cấp, giao tận nơi nội thành Quảng Nam">
+    <meta property="og:type" content="website">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FloristShop",
+      "name": "Shop Hoa Núi Thành",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Đường 219, xã Núi Thành",
+        "addressLocality": "Đà Nẵng",
+        "addressCountry": "VN"
+      },
+      "telephone": "+84-xxx-xxx-xxx",
+      "priceRange": "$$"
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            📞 Hotline: 0333.069.017 | 🚚 Miễn phí giao hàng nội thành Quảng Nam | 💝 Ưu đãi đặc biệt hôm nay!
+        </div>
+        <nav>
+            <a href="#" class="logo">
+                <div class="logo-placeholder">🌺</div>
+                <span>Shop Hoa Núi Thành</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+                <li>
+                    <div class="cart-icon" onclick="openCart()">
+                        🛒
+                        <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                </li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in" id="home">
+        <div class="hero-content">
+            <h1>Hoa Tươi Đẹp - Tình Yêu Trọn Vẹn 🌸</h1>
+            <p>Mang đến niềm vui và hạnh phúc qua từng bông hoa tươi thắm. Giao hàng tận nơi nội thành Quảng Nam.</p>
+            <div class="cta-buttons">
+                <a href="#products" class="btn btn-primary">Xem Sản Phẩm</a>
+                <a href="#contact" class="btn btn-secondary">Liên Hệ Ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search & Filter -->
+    <section class="search-filter-section">
+        <div class="search-filter-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Tìm kiếm hoa, bó hoa, phụ kiện..." onkeyup="searchProducts()">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filter-group">
+                <select id="categoryFilter" onchange="filterProducts()">
+                    <option value="all">Tất cả danh mục</option>
+                    <option value="bo-hoa">Hoa Bó</option>
+                    <option value="hoa-tang">Hoa Tang</option>
+                    <option value="phu-kien">Phụ Kiện</option>
+                </select>
+                <select id="occasionFilter" onchange="filterProducts()">
+                    <option value="all">Tất cả dịp</option>
+                    <option value="sinh-nhat">Sinh Nhật</option>
+                    <option value="dam-tang">Đám Tang</option>
+                    <option value="ky-niem">Kỷ Niệm</option>
+                </select>
+                <select id="priceFilter" onchange="filterProducts()">
+                    <option value="all">Mọi mức giá</option>
+                    <option value="0-200">Dưới 200k</option>
+                    <option value="200-500">200k - 500k</option>
+                    <option value="500-1000">500k - 1 triệu</option>
+                    <option value="1000-">Trên 1 triệu</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-section fade-in-up">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="categories-grid">
+                <a href="#products" class="category-card" onclick="filterByCategory('bo-hoa')">
+                    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=500&h=300&fit=crop" alt="Hoa Bó" class="category-image">
+                    <div class="category-info">
+                        <h3>🌹 Hoa Bó</h3>
+                        <p>Hoa bó tươi đẹp cho mọi dịp đặc biệt</p>
+                    </div>
+                </a>
+                <a href="#products" class="category-card" onclick="filterByCategory('hoa-tang')">
+                    <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=500&h=300&fit=crop" alt="Hoa Tang" class="category-image">
+                    <div class="category-info">
+                        <h3>🕯️ Hoa Tang</h3>
+                        <p>Hoa tang lễ trang nghiêm, ý nghĩa</p>
+                    </div>
+                </a>
+                <a href="#products" class="category-card" onclick="filterByCategory('phu-kien')">
+                    <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=500&h=300&fit=crop" alt="Phụ Kiện" class="category-image">
+                    <div class="category-info">
+                        <h3>🎁 Phụ Kiện</h3>
+                        <p>Thiệp, in ảnh và quà tặng kèm</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2 class="section-title">Sản Phẩm Nổi Bật</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Về Chúng Tôi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>🌸 Shop Hoa Núi Thành - Nơi Trao Gửi Yêu Thương</h3>
+                    <p>Với hơn 5 năm kinh nghiệm trong ngành hoa tươi, Shop Hoa Núi Thành tự hào là địa chỉ tin cậy của hàng ngàn khách hàng tại Đà Nẵng và Quảng Nam.</p>
+                    <p>Chúng tôi cam kết:</p>
+                    <ul>
+                        <li>✅ Hoa tươi 100%, nhập khẩu và trong nước</li>
+                        <li>✅ Thiết kế theo yêu cầu, tư vấn miễn phí</li>
+                        <li>✅ Giao hàng nhanh chóng trong 2 giờ</li>
+                        <li>✅ Giá cả cạnh tranh, nhiều ưu đãi</li>
+                        <li>✅ Hỗ trợ 24/7</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h4>100+</h4>
+                        <p>Khách hàng hài lòng</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>100+</h4>
+                        <p>Đơn hàng thành công</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>50+</h4>
+                        <p>Mẫu hoa đa dạng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ Với Chúng Tôi</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>📍 Thông Tin Liên Hệ</h3>
+                    <div class="info-item">
+                        <strong>Địa chỉ:</strong>
+                        <p>Đường 219, xã Núi Thành, thành phố Đà Nẵng</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Điện thoại:</strong>
+                        <p>0333.069.017</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Email:</strong>
+                        <p>info@shophoanuithnh.vn</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Giờ làm việc:</strong>
+                        <p>7:00 - 22:00 (Tất cả các ngày)</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">📘</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="Zalo">💬</a>
+                        <a href="#" title="TikTok">🎵</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>💌 Gửi Tin Nhắn</h3>
+                    <form onsubmit="submitContact(event)">
+                        <input type="text" placeholder="Họ và tên *" required>
+                        <input type="tel" placeholder="Số điện thoại *" required>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Nội dung tin nhắn *" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Gửi Tin Nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🌺 Shop Hoa Núi Thành</h3>
+                <p>Mang đến niềm vui và hạnh phúc qua từng bông hoa tươi thắm.</p>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📷</a>
+                    <a href="#">💬</a>
+                    <a href="#">🎵</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Danh Mục</h3>
+                <a href="#products">Hoa Bó</a>
+                <a href="#products">Hoa Tang</a>
+                <a href="#products">Phụ Kiện</a>
+                <a href="#about">Giới Thiệu</a>
+            </div>
+            <div class="footer-section">
+                <h3>Hỗ Trợ</h3>
+                <a href="#contact">Liên Hệ</a>
+                <a href="#">Chính Sách Đổi Trả</a>
+                <a href="#">Hướng Dẫn Đặt Hàng</a>
+                <a href="#">Câu Hỏi Thường Gặp</a>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Hệ</h3>
+                <p>📍 Đường 219, xã Núi Thành, TP Đà Nẵng</p>
+                <p>📞 0333.069.017</p>
+                <p>📧 info@shophoanuithnh.vn</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shop Hoa Núi Thành. All rights reserved. Made with 💝</p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contacts">
+        <a href="https://zalo.me/0123456789" class="contact-btn zalo-btn" target="_blank" title="Chat Zalo">
+            💬
+        </a>
+        <a href="https://m.me/your-page" class="contact-btn messenger-btn" target="_blank" title="Chat Messenger">
+            📨
+        </a>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
