@@ -193,7 +193,7 @@ const products = [
     {
         id: 20,
         name: "hoa hồng lãng mạn",
-        price: 2700000,
+        price: 270000,
         image: "images/270 (9).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -204,7 +204,7 @@ const products = [
     {
         id: 21,
         name: "Hoa đơn giản",
-        price: 2700000,
+        price: 270000,
         image: "images/270 (10).jpg",
        category: "bo-hoa",
         occasion: "ky-niem",
@@ -825,4 +825,5 @@ document.addEventListener('DOMContentLoaded', function() {
         
         lastScroll = currentScroll;
     });
+
 });
