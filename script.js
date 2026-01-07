@@ -3,7 +3,7 @@ const products = [
     // HOA BÓ - SINH NHẬT
     {
         id: 1,
-        name: "Bó Hoa Hồng Trắng",
+        name: " Hoa Hồng Trắng",
         price: 250000,
         image: "images/250 (1).jpg",
         category: "bo-hoa",
@@ -14,7 +14,7 @@ const products = [
     },
     {
         id: 2,
-        name: "Bó Hoa Hồng Đỏ",
+        name: " Hoa Hồng Đỏ",
         price: 250000,
         image: "images/250 (2).jpg",
         category: "bo-hoa",
@@ -25,7 +25,7 @@ const products = [
     },
     {
         id: 3,
-        name: "Bó Hoa Hồng Đỏ",
+        name: " Hoa Hồng Đỏ",
         price: 250000,
         image: "images/250 (3).jpg",
         category: "bo-hoa",
@@ -36,7 +36,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Bó Hoa Hồng phấn",
+        name: " Hoa Hồng phấn",
         price: 250000,
         image: "images/250 (4).jpg",
         category: "bo-hoa",
@@ -47,7 +47,7 @@ const products = [
     },
     {
         id: 5,
-        name: "Bó Hoa Hồng phấn",
+        name: " Hoa Hồng phấn",
         price: 250000,
         image: "images/250 (5).jpg",
         category: "bo-hoa",
@@ -58,7 +58,7 @@ const products = [
     },
     {
         id: 6,
-        name: "Bó Hoa Hồng Đỏ",
+        name: " Hoa Hồng Đỏ",
         price: 250000,
         image: "images/250 (6).jpg",
         category: "bo-hoa",
@@ -69,7 +69,7 @@ const products = [
     },
     {
         id: 7,
-        name: "Bó Hoa đơn giản",
+        name: " Hoa đơn giản",
         price: 250000,
         image: "images/250 (7).jpg",
         category: "bo-hoa",
@@ -91,7 +91,7 @@ const products = [
     },
     {
         id: 9,
-        name: "Bó Hoa đơn giản",
+        name: " Hoa đơn giản",
         price: 250000,
         image: "images/250 (9).jpg",
         category: "bo-hoa",
@@ -102,7 +102,7 @@ const products = [
     },
     {
         id: 10,
-        name: "Bó Hoa đơn giản",
+        name: " Hoa đơn giản",
         price: 250000,
         image: "images/250 (10).jpg",
         category: "bo-hoa",
@@ -115,7 +115,7 @@ const products = [
     // HOA BÓ - KỶ NIỆM
     {
         id: 11,
-        name: "Bó Hoa đơn giản",
+        name: " Hoa đơn giản",
         price: 250000,
         image: "images/250 (11).jpg",
         category: "bo-hoa",
@@ -126,7 +126,7 @@ const products = [
     },
     {
         id: 12,
-        name: "Bó Hoa Mix Sang Trọng",
+        name: " Hoa Mix Sang Trọng",
         price: 250000,
         image: "images/250 (12).jpg",
         category: "bo-hoa",
@@ -137,7 +137,7 @@ const products = [
     },
     {
         id: 13,
-        name: "Bó Hoa đơn giản",
+        name: " Hoa đơn giản",
         price: 250000,
         image: "images/250 (15).jpg",
         category: "bo-hoa",
@@ -148,7 +148,7 @@ const products = [
     },
     {
         id: 14,
-        name: "Bó Hoa Hồng ",
+        name: " Hoa Hồng ",
         price: 250000,
         image: "images/250 (16).jpg",
         category: "bo-hoa",
@@ -159,7 +159,7 @@ const products = [
     },
      {
         id: 15,
-        name: "Bó hoa cẩm tú cầu",
+        name: " hoa cẩm tú cầu",
         price: 270000,
         image: "images/270 (1).jpg",
         category: "bo-hoa",
@@ -170,7 +170,7 @@ const products = [
     },
     {
         id: 16,
-        name: "Giỏ hoa hồng bánh kem",
+        name: "hoa hồng bánh kem",
         price: 270000,
         image: "images/270 (7).jpg",
         category: "bo-hoa",
@@ -181,7 +181,7 @@ const products = [
     },
     {
         id: 19,
-        name: "Bó Hoa mix màu sắc",
+        name: "Hoa mix màu sắc",
         price: 270000,
         image: "images/270 (8).jpg",
         category: "bo-hoa",
@@ -192,7 +192,7 @@ const products = [
     },
     {
         id: 20,
-        name: "Bó hoa hồng lãng mạn",
+        name: "hoa hồng lãng mạn",
         price: 2700000,
         image: "images/270 (9).jpg",
         category: "bo-hoa",
@@ -203,7 +203,7 @@ const products = [
     },
     {
         id: 21,
-        name: "Bó Hoa đơn giản",
+        name: "Hoa đơn giản",
         price: 2700000,
         image: "images/270 (10).jpg",
        category: "bo-hoa",
@@ -214,7 +214,7 @@ const products = [
     },
     {
         id: 22,
-        name: "Giỏ hoa hồng và bánh kem",
+        name: " hoa hồng và bánh kem",
         price: 270000,
         image: "images/270 (11).jpg",
        category: "bo-hoa",
@@ -225,7 +225,7 @@ const products = [
     },
     {
         id: 23,
-        name: "Bó hoa mix đơn giản",
+        name: "hoa mix đơn giản",
         price: 270000,
         image: "images/270 (12).jpg",
         category: "bo-hoa",
@@ -236,7 +236,7 @@ const products = [
     },
       {
         id: 24,
-        name: "Bó hoa mix đơn giản",
+        name: "hoa mix đơn giản",
         price: 200000,
         image: "images/200 (1).jpg",
         category: "bo-hoa",
@@ -247,7 +247,7 @@ const products = [
     },
     {
         id: 25,
-        name: "Bó hoa cẩm tú cầu độc đáo, tinh tế",
+        name: "hoa cẩm tú cầu độc đáo, tinh tế",
         price: 270000,
         image: "images/270 (13).jpg",
         category: "bo-hoa",
@@ -258,7 +258,7 @@ const products = [
     },
     {
         id: 26,
-        name: "Bó hoa hồng mix đơn giản",
+        name: "hoa hồng mix đơn giản",
         price: 270000,
         image: "images/220 (1).jpg",
         category: "bo-hoa",
@@ -272,7 +272,7 @@ const products = [
   
     {
         id: 27,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (1).jpg",
         category: "hoa-tang",
@@ -283,7 +283,7 @@ const products = [
     },
       {
         id: 28,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (2).jpg",
         category: "hoa-tang",
@@ -294,7 +294,7 @@ const products = [
     },
       {
         id: 29,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (3).jpg",
         category: "hoa-tang",
@@ -305,7 +305,7 @@ const products = [
     },
       {
         id: 30,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (4).jpg",
         category: "hoa-tang",
@@ -316,7 +316,7 @@ const products = [
     },
       {
         id: 31,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (5).jpg",
         category: "hoa-tang",
@@ -327,7 +327,7 @@ const products = [
     },
       {
         id: 32,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (6).jpg",
         category: "hoa-tang",
@@ -338,7 +338,7 @@ const products = [
     },
       {
         id: 33,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (7).jpg",
         category: "hoa-tang",
@@ -349,7 +349,7 @@ const products = [
     },
       {
         id: 34,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (8).jpg",
         category: "hoa-tang",
@@ -360,7 +360,7 @@ const products = [
     },
       {
         id: 35,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1 (9).jpg",
         category: "hoa-tang",
@@ -371,7 +371,7 @@ const products = [
     },
         {
         id: 36,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1100000,
         image: "images/1tr1.jpg",
         category: "hoa-tang",
@@ -382,7 +382,7 @@ const products = [
     },
         {
         id: 37,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1200000,
         image: "images/1tr2 (1).jpg",
         category: "hoa-tang",
@@ -393,7 +393,7 @@ const products = [
     },
         {
         id: 38,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 1200000,
         image: "images/1tr2 (2).jpg",
         category: "hoa-tang",
@@ -404,7 +404,7 @@ const products = [
     },
         {
         id: 39,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 650000,
         image: "images/650 (1).jpg",
         category: "hoa-tang",
@@ -415,7 +415,7 @@ const products = [
     },
         {
         id: 42,
-        name: "Bó Hoa Chia Buồn Đơn Giản",
+        name: "Kệ Hoa Chia Buồn Đơn Giản",
         price: 650000,
         image: "images/650 (2).jpg",
         category: "hoa-tang",
@@ -651,8 +651,8 @@ function openCart() {
     cartHTML += `💰 TỔNG CỘNG: ${formatPrice(total)}\n\n`;
     cartHTML += '📞 Liên hệ ngay để đặt hàng:\n';
     cartHTML += '• Zalo: 0333.069.017\n';
-    cartHTML += '• Messenger: Shop Hoa Núi Thành\n\n';
-    cartHTML += '🚚 Miễn phí giao hàng nội thành Quảng Nam!';
+    cartHTML += '• Messenger: Tiệm Hoa Hồng Phúc - Hoa Tươi Núi Thành\n\n';
+    cartHTML += '🚚 giao hàng nội thành Núi Thành!';
     
     alert(cartHTML);
 }
@@ -680,7 +680,7 @@ function openModal(productId) {
                 🏷️ <strong>Danh mục:</strong> ${getCategoryName(product.category)}<br>
                 🎉 <strong>Dịp:</strong> ${getOccasionName(product.occasion)}<br>
                 ✅ <strong>Tình trạng:</strong> <span style="color: green;">Còn hàng</span><br>
-                🚚 <strong>Giao hàng:</strong> Miễn phí nội thành Quảng Nam<br>
+                🚚 <strong>Giao hàng:</strong> Giao hàng nội thành Núi Thành<br>
                 ⏰ <strong>Thời gian:</strong> Giao trong 2 giờ
             </div>
             <div class="product-actions">
@@ -741,7 +741,7 @@ function submitContact(event) {
     const message = form.querySelector('textarea').value;
     
     // Hiển thị thông báo thành công
-    alert(`✅ Cảm ơn ${name} đã liên hệ!\n\nChúng tôi sẽ phản hồi qua số điện thoại ${phone} trong thời gian sớm nhất.\n\n💝 Shop Hoa Núi Thành`);
+    alert(`✅ Cảm ơn ${name} đã liên hệ!\n\nChúng tôi sẽ phản hồi qua số điện thoại ${phone} trong thời gian sớm nhất.\n\n💝Tiệm Hoa Hồng Phúc - Hoa Tươi Núi Thành`);
     
     // Reset form
     form.reset();
