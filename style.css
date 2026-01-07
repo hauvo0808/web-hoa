@@ -6,13 +6,13 @@
 }
 
 :root {
-    --primary-pink: #e4e674;
-    --dark-pink: #edffac;
+    --primary-pink: #f8fc32;
+    --dark-pink: #faf895;
     --light-pink: #FFF0F5;
     --white: #FFFFFF;
-    --text-dark: #333333;
+    --text-dark: #000000;
     --text-gray: #666666;
-    --shadow: rgba(255, 105, 180, 0.15);
+    --shadow: rgba(190, 255, 105, 0.15);
     --transition: all 0.3s ease;
 }
 
@@ -923,4 +923,5 @@ footer {
     .section-title {
         font-size: 28px;
     }
+
 }
