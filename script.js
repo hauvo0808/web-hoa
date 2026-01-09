@@ -4,7 +4,7 @@ const products = [
     {
         id: 1,
         name: " Hoa Hồng Trắng",
-        price: 250000,
+        price: 230000,
         image: "images/250 (1).jpg",
         category: "bo-hoa",
         occasion: "sinh-nhat",
@@ -103,7 +103,7 @@ const products = [
     {
         id: 10,
         name: " Hoa đơn giản",
-        price: 250000,
+        price: 230000,
         image: "images/250 (10).jpg",
         category: "bo-hoa",
         occasion: "sinh-nhat",
@@ -116,7 +116,7 @@ const products = [
     {
         id: 11,
         name: " Hoa đơn giản",
-        price: 250000,
+        price: 230000,
         image: "images/250 (11).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -127,7 +127,7 @@ const products = [
     {
         id: 12,
         name: " Hoa Mix Sang Trọng",
-        price: 250000,
+        price: 230000,
         image: "images/250 (12).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -149,7 +149,7 @@ const products = [
     {
         id: 14,
         name: " Hoa Hồng ",
-        price: 250000,
+        price: 230000,
         image: "images/250 (16).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -160,7 +160,7 @@ const products = [
      {
         id: 15,
         name: " hoa cẩm tú cầu",
-        price: 270000,
+        price: 249000,
         image: "images/270 (1).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -182,7 +182,7 @@ const products = [
     {
         id: 19,
         name: "Hoa mix màu sắc",
-        price: 270000,
+        price: 249000,
         image: "images/270 (8).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -193,7 +193,7 @@ const products = [
     {
         id: 20,
         name: "hoa hồng lãng mạn",
-        price: 270000,
+        price: 249000,
         image: "images/270 (9).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -204,7 +204,7 @@ const products = [
     {
         id: 21,
         name: "Hoa đơn giản",
-        price: 270000,
+        price: 269000,
         image: "images/270 (10).jpg",
        category: "bo-hoa",
         occasion: "ky-niem",
@@ -215,7 +215,7 @@ const products = [
     {
         id: 22,
         name: " hoa hồng và bánh kem",
-        price: 270000,
+        price: 250000,
         image: "images/270 (11).jpg",
        category: "bo-hoa",
         occasion: "ky-niem",
@@ -237,7 +237,7 @@ const products = [
       {
         id: 24,
         name: "hoa mix đơn giản",
-        price: 200000,
+        price: 179000,
         image: "images/200 (1).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -248,7 +248,7 @@ const products = [
     {
         id: 25,
         name: "hoa cẩm tú cầu độc đáo, tinh tế",
-        price: 270000,
+        price: 250000,
         image: "images/270 (13).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -266,6 +266,28 @@ const products = [
         description: "Hoa hồng tươi cao cấp, dễ thương",
         rating: 5,
         reviews: 156
+    },
+     {
+        id: 26,
+        name: "hoa bó đơn giản",
+        price: 190000,
+        image: "images/190.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 16
+    },
+     {
+        id: 26,
+        name: "Hoa sỉ tập thể",
+        price: 119000,
+        image: "images/119.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 45
     },
 
     // HOA TANG
@@ -825,5 +847,4 @@ document.addEventListener('DOMContentLoaded', function() {
         
         lastScroll = currentScroll;
     });
-
 });
