@@ -1,6 +1,73 @@
 // ===== DATA - PRODUCTS =====
 const products = [
     // HOA BÓ - SINH NHẬT
+     {
+        id: 48,
+        name: "Hoa sỉ tập thể",
+        price: 35000,
+        image: "images/35.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hướng dương cao cấp, dễ thương",
+        rating: 5,
+        reviews: 76
+    },
+     {
+        id: 47,
+        name: "Hoa sỉ tập thể",
+        price: 119000,
+        image: "images/119.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 45
+    },
+      {
+        id: 50,
+        name: "Hoa cẩm tú cầu",
+        price: 149000,
+        image: "images/149.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 46
+    },
+    
+      {
+        id: 24,
+        name: "hoa mix đơn giản",
+        price: 179000,
+        image: "images/200 (1).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa mix nhiều màu sắc lung linh, lãng mạn",
+        rating: 5,
+        reviews: 234
+    },
+     {
+        id: 46,
+        name: "hoa bó đơn giản",
+        price: 190000,
+        image: "images/190.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 16
+    },
+      {
+        id: 49,
+        name: "Hoa hồng sang trọng",
+        price: 219000,
+        image: "images/219.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 39
+    },
     {
         id: 1,
         name: " Hoa Hồng Trắng",
@@ -11,6 +78,50 @@ const products = [
         description: "Bó hoa hồng trắng cao cấp, tượng trưng cho tình yêu nồng nàn và chân thành",
         rating: 5,
         reviews: 128
+    },
+     {
+        id: 10,
+        name: " Hoa đơn giản",
+        price: 230000,
+        image: "images/250 (10).jpg",
+        category: "bo-hoa",
+        occasion: "sinh-nhat",
+        description: "hương thơm dễ chịu, giúp thư giãn và an lành",
+        rating: 5,
+        reviews: 76
+    },
+    {
+        id: 11,
+        name: " Hoa đơn giản",
+        price: 230000,
+        image: "images/250 (11).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng biểu tượng của tình yêu thuần khiết và vĩnh cửu",
+        rating: 5,
+        reviews: 203
+    },
+    {
+        id: 12,
+        name: " Hoa Mix Sang Trọng",
+        price: 230000,
+        image: "images/250 (12).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Kết hợp hoa hồng, lily - cao cấp và đẳng cấp",
+        rating: 5,
+        reviews: 134
+    },
+      {
+        id: 14,
+        name: " Hoa Hồng ",
+        price: 230000,
+        image: "images/250 (16).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hồng phấn độc đáo, màu nude nhẹ nhàng, đầy quý phái",
+        rating: 5,
+        reviews: 112
     },
     {
         id: 2,
@@ -100,41 +211,8 @@ const products = [
         rating: 4,
         reviews: 58
     },
-    {
-        id: 10,
-        name: " Hoa đơn giản",
-        price: 230000,
-        image: "images/250 (10).jpg",
-        category: "bo-hoa",
-        occasion: "sinh-nhat",
-        description: "hương thơm dễ chịu, giúp thư giãn và an lành",
-        rating: 5,
-        reviews: 76
-    },
 
     // HOA BÓ - KỶ NIỆM
-    {
-        id: 11,
-        name: " Hoa đơn giản",
-        price: 230000,
-        image: "images/250 (11).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng biểu tượng của tình yêu thuần khiết và vĩnh cửu",
-        rating: 5,
-        reviews: 203
-    },
-    {
-        id: 12,
-        name: " Hoa Mix Sang Trọng",
-        price: 230000,
-        image: "images/250 (12).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Kết hợp hoa hồng, lily - cao cấp và đẳng cấp",
-        rating: 5,
-        reviews: 134
-    },
     {
         id: 13,
         name: " Hoa đơn giản",
@@ -145,17 +223,6 @@ const products = [
         description: " Hoa đẹp quý phái, thích hợp cho dịp kỷ niệm ",
         rating: 5,
         reviews: 89
-    },
-    {
-        id: 14,
-        name: " Hoa Hồng ",
-        price: 230000,
-        image: "images/250 (16).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hồng phấn độc đáo, màu nude nhẹ nhàng, đầy quý phái",
-        rating: 5,
-        reviews: 112
     },
      {
         id: 15,
@@ -168,18 +235,7 @@ const products = [
         rating: 5,
         reviews: 178
     },
-    {
-        id: 16,
-        name: "hoa hồng bánh kem",
-        price: 270000,
-        image: "images/270 (7).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng tươi cao cấp, bánh kem dễ thương",
-        rating: 5,
-        reviews: 156
-    },
-    {
+      {
         id: 19,
         name: "Hoa mix màu sắc",
         price: 249000,
@@ -201,6 +257,39 @@ const products = [
         rating: 5,
         reviews: 87
     },
+     {
+        id: 22,
+        name: " hoa hồng và bánh kem",
+        price: 250000,
+        image: "images/270 (11).jpg",
+       category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tinh tế và bánh kem tinh tế",
+        rating: 4,
+        reviews: 67
+    },
+        {
+        id: 25,
+        name: "hoa cẩm tú cầu độc đáo, tinh tế",
+        price: 250000,
+        image: "images/270 (13).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: " bó hoa cẩm tú cầu làm quà tặng ý nghĩa",
+        rating: 5,
+        reviews: 189
+    },
+    {
+        id: 16,
+        name: "hoa hồng bánh kem",
+        price: 270000,
+        image: "images/270 (7).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, bánh kem dễ thương",
+        rating: 5,
+        reviews: 156
+    },
     {
         id: 21,
         name: "Hoa đơn giản",
@@ -213,17 +302,6 @@ const products = [
         reviews: 143
     },
     {
-        id: 22,
-        name: " hoa hồng và bánh kem",
-        price: 250000,
-        image: "images/270 (11).jpg",
-       category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng tinh tế và bánh kem tinh tế",
-        rating: 4,
-        reviews: 67
-    },
-    {
         id: 23,
         name: "hoa mix đơn giản",
         price: 270000,
@@ -233,28 +311,6 @@ const products = [
         description: "Hoa mix nhiều màu sắc lung linh, lãng mạn",
         rating: 4,
         reviews: 92
-    },
-      {
-        id: 24,
-        name: "hoa mix đơn giản",
-        price: 179000,
-        image: "images/200 (1).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa mix nhiều màu sắc lung linh, lãng mạn",
-        rating: 5,
-        reviews: 234
-    },
-    {
-        id: 25,
-        name: "hoa cẩm tú cầu độc đáo, tinh tế",
-        price: 250000,
-        image: "images/270 (13).jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: " bó hoa cẩm tú cầu làm quà tặng ý nghĩa",
-        rating: 5,
-        reviews: 189
     },
     {
         id: 26,
@@ -268,26 +324,26 @@ const products = [
         reviews: 156
     },
      {
-        id: 26,
-        name: "hoa bó đơn giản",
-        price: 190000,
-        image: "images/190.jpg",
+        id: 52,
+        name: "Hoa phối tự do",
+        price: 269000,
+        image: "images/269.jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
-        description: "Hoa hồng tươi cao cấp, dễ thương",
-        rating: 5,
-        reviews: 16
-    },
-     {
-        id: 26,
-        name: "Hoa sỉ tập thể",
-        price: 119000,
-        image: "images/119.jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng tươi cao cấp, dễ thương",
+        description: "Hoa phối pastel dễ thương",
         rating: 5,
         reviews: 45
+    },
+     {
+        id: 51,
+        name: "Hoa ly",
+        price: 390000,
+        image: "images/390.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa ly thanh lịch",
+        rating: 5,
+        reviews: 29
     },
 
     // HOA TANG
@@ -463,7 +519,7 @@ const products = [
 
     // THÊM SẢN PHẨM NỔI BẬT
     {
-        id: 35,
+        id: 44,
         name: "Bó Hoa 100 Bông Hồng",
         price: 2500000,
         image: "https://images.unsplash.com/photo-1522669515770-58d3d8022316?w=400&h=400&fit=crop",
@@ -475,7 +531,7 @@ const products = [
         badge: "HOT"
     },
     {
-        id: 36,
+        id: 45,
         name: "Giỏ Hoa Trái Cây Cao Cấp",
         price: 850000,
         image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=400&fit=crop",
