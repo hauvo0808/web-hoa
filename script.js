@@ -46,32 +46,10 @@ const products = [
         rating: 5,
         reviews: 234
     },
-     {
-        id: 46,
-        name: "hoa bó đơn giản",
-        price: 189000,
-        image: "images/190.jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng tươi cao cấp, dễ thương",
-        rating: 5,
-        reviews: 16
-    },
-      {
-        id: 49,
-        name: "Hoa hồng sang trọng",
-        price: 219000,
-        image: "images/219.jpg",
-        category: "bo-hoa",
-        occasion: "ky-niem",
-        description: "Hoa hồng tươi cao cấp, dễ thương",
-        rating: 5,
-        reviews: 39
-    },
     {
         id: 1,
         name: " Hoa Hồng Trắng",
-        price: 229000,
+        price: 199000,
         image: "images/250 (1).jpg",
         category: "bo-hoa",
         occasion: "sinh-nhat",
@@ -82,7 +60,7 @@ const products = [
      {
         id: 10,
         name: " Hoa đơn giản",
-        price: 229000,
+        price: 199000,
         image: "images/250 (10).jpg",
         category: "bo-hoa",
         occasion: "sinh-nhat",
@@ -93,7 +71,7 @@ const products = [
     {
         id: 11,
         name: " Hoa đơn giản",
-        price: 229000,
+        price: 199000,
         image: "images/250 (11).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -104,7 +82,7 @@ const products = [
     {
         id: 12,
         name: " Hoa Mix Sang Trọng",
-        price: 229000,
+        price: 199000,
         image: "images/250 (12).jpg",
         category: "bo-hoa",
         occasion: "ky-niem",
@@ -112,6 +90,18 @@ const products = [
         rating: 5,
         reviews: 134
     },
+     {
+        id: 46,
+        name: "hoa bó đơn giản",
+        price: 229000,
+        image: "images/190.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng tươi cao cấp, dễ thương",
+        rating: 5,
+        reviews: 16
+    },
+
       {
         id: 14,
         name: " Hoa Hồng ",
