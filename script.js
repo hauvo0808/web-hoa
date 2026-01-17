@@ -91,6 +91,17 @@ const products = [
         reviews: 134
     },
      {
+        id: 53,
+        name: " Hoa hồng mix",
+        price: 219000,
+        image: "images/219 (1).jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Kết hợp hoa hồng, lily - cao cấp và đẳng cấp",
+        rating: 3.8,
+        reviews: 12
+    },
+     {
         id: 46,
         name: "hoa bó đơn giản",
         price: 229000,
@@ -101,7 +112,6 @@ const products = [
         rating: 5,
         reviews: 16
     },
-
       {
         id: 14,
         name: " Hoa Hồng ",
@@ -334,6 +344,17 @@ const products = [
         description: "Hoa ly thanh lịch",
         rating: 5,
         reviews: 29
+    },
+     {
+        id: 54,
+        name: " Hoa hồng đỏ sang trọng",
+        price: 349000,
+        image: "images/349.jpg",
+        category: "bo-hoa",
+        occasion: "ky-niem",
+        description: "Hoa hồng đỏ ",
+        rating: 5,
+        reviews: 23
     },
 
     // HOA TANG
